@@ -1,0 +1,18 @@
+     if ( ( argc > 1 ) && ( strcmp(argv[1], "display") == 0) ) {
+        // ... then display the content of the BST.
+     }
+     else if (argc == 1) {
+        // while user has not entered CTRL+D
+        while ( getline(cin, aWord) ) {   
+
+           WordPair aWordPair(aWord);
+           // retrieve aWordPair from "testing" using a try/catch block
+           // print aWordPair
+
+        }
+     }
+  }
+  else 
+     cout << "Unable to open file"; 
+
+  return 0;
